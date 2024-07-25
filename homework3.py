@@ -2,7 +2,7 @@ name='Anton'
 age=44
 print('Name:',name)
 print('Age:',age)
-age=str(age//10)+'5' #как понимаю из задания, в этом месте нужно было использовать изменение типа данных
+age=age+1
 print('New age:',age)
-is_student=2>1
+is_student=True
 print('is student:',is_student)
